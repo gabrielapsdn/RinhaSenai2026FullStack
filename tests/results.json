@@ -357,12 +357,12 @@
     {
       "name": "Throughput >= 50 txn/s",
       "ok": true,
-      "detail": "471 txn/s, 425ms"
+      "detail": "175 txn/s, 1142ms"
     },
     {
       "name": "P95 < 500ms",
       "ok": true,
-      "detail": "p50=35ms p95=73ms p99=182ms avg=42ms"
+      "detail": "p50=106ms p95=141ms p99=214ms avg=108ms"
     },
     {
       "name": "Idempotencia concorrente",
@@ -381,14 +381,14 @@
     }
   ],
   "metrics": {
-    "throughput": 471,
-    "stress_elapsed_ms": 425,
+    "throughput": 175,
+    "stress_elapsed_ms": 1142,
     "stress_created": 200,
     "stress_total": 200,
-    "latency_p50_ms": 35,
-    "latency_p95_ms": 73,
-    "latency_p99_ms": 182,
-    "latency_avg_ms": 42
+    "latency_p50_ms": 106,
+    "latency_p95_ms": 141,
+    "latency_p99_ms": 214,
+    "latency_avg_ms": 108
   },
   "summary": {
     "pass": 75,
